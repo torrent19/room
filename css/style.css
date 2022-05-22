@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header{
+    height: 10vh;
+}
+header.container>img{
+    height: 60%;
+
+}
+.menu a ,.shop a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight:400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shop{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 47px;
+    
+}
+main img{
+    width: 100%;
+   
+}
+.main-title{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin:  0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.main-title h1{
+    width: 30%;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.main-title p{
+    width: 50%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    font-style: normal;
+    color: #aaaa;
+}
+.apartment .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.room{
+    width: 49%;
+    
+}
+.room img{
+    width: 100%;
+}
+.room p{
+    padding: 5px 2px;
+}
+.marki{
+    height: 100%;
+    
+}
+.marki h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+    color: #1a1a1a;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.marki p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    padding-bottom: 90px;
+    color: #4A4A4A;
+    padding-top: 30px;
+}
+.icons div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+main img{
+    width: 100%;
+   
+}
+.simple{
+    width: 100%;
+}
+.simple h1{
+    width: 100%;
+    height: 168px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 45px;
+    color: #1a1a1a;
+    padding: 50px 100px;
+    
+}
+.simple p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    padding-top: 35px;
+    padding-bottom: 73px;
+    padding-left: 100px;
+    color: #46856E;
+}
+
+.blok{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    
+    
+}
+.col{
+    width: 100%;  
+}  
+.col img{
+    width: 30%;
+}
+h3{
+    padding-right:50px;
+    padding-top: 28px;
+    padding-bottom: 27px;
+    color: #1a1a1a;
+    font-style: normal;
+    font-weight:400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.col p{
+    color: #aaa;
+    padding-top: 27px;
+    padding-left: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.advantages{
+    height: 150vh;
+    background-image: url(..//images/main-pic.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin:  3vh 2%;
+    padding-left: 175px;
+    padding-top: 100px;
+    padding-right: 186px;
+
+}
+.advantages div p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+}
+.advantages > div {
+    margin-top: 20px;
+    width: 35%;
+}
+.container {
+	max-width:1440;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+}
+
+.wrap{
+	padding: 50px 0;
+   
+}
+.flex {
+	margin: 0 auto;
+	display: flex;
+	justify-content:center;
+	
+}
+.row-reverse{
+	flex-direction: row-reverse;
+} 
+
+h2{
+    
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1a1a1a;
+    padding-bottom: 30px;
+
+}
+
+
+.img {
+    width: 550px;
+	height: 300px;
+}
+
+.flex__item {
+    width: 30%;
+	padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex__item p{
+    color: #aaa;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+  
+    
+    
+   
+}
+.service h1{
+    width: 90vh;
+    padding-top: 50px;
+    color: #aaa;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    margin-left: 500px;
+    text-align: center;
+    
+   
+}
+.make {
+    height: 52px;
+    padding: 50px ;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+}
+
+
+
+footer{
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 50px 30px;
+}
+
+footer .container{
+    display: flex;
+    height: 100vh;
+    
+}
+
+.leftFooter{
+    width: 60%;
+    display: flex;
+    height: 90%;
+}
+.rightFooter{
+    width: 60%;
+    display: flex;
+}
+.logo{
+    width: 30%;
+   
+    
+}
+
+.navFooter{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navFooter div{
+    height: 50%;
+    width: 50%;
+    
+}
+.followUs{
+    width: 40%;
+   
+
+}
+.followUs h5{
+    
+    font-weight:400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.text{
+    width: 70%;
+    height: 40px;
+    border: 1px solid #aaa;
+    margin-left: 30px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+span{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+   margin-left: 180px;
+   
+}
+.chec {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.container-get{
+    width: 150vh;
+    height: 400px;
+    color: red;
+    border: 2px solid#F2F2F2;
+    background-color:#F2F2F2; 
+    margin-top: 100px;
+    margin-left: 280px;
+    margin-bottom: 100px;
+    text-align: center;
+  
+}
+.bloks{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hundred{
+    color: #000;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 51px;
+
+}
+.blok-item p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+.blok-item{
+    margin: 20px 50px;
+}
+button{
+    width: 20%;
+    height: 40px;
+    background-color: #46856E;
+    color: #fff;
+}
+.btn {
+    color:#aaaaaa ;
+    margin-top: 10px;
+}
+.social-link{
+    display: flex;
+    
+    margin:0 auto;
+    
+}
+
+.social-items{
+    margin: 0 15px;
+    padding-top: 30px;
+
+}
+
+.feedback{
+    width: 60%;
+    
+}
+.feedback h5{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.feedback p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.about h5{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+ul a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    
+}
+li{
+    
+    padding-bottom: 10px;
+    list-style: none;
+}
+.support h5{
+   
+    font-weight:400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#fff;
+}
+.showrooms h5{
+   
+    font-weight:400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.office h5{
+    
+    font-weight:400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
